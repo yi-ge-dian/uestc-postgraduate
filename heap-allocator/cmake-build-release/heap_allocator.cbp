@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="heap_allocator"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/heap-allocator/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/heap-allocator/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/heap-allocator/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/heap-allocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/heap-allocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/heap-allocator/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/heap-allocator/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/heap-allocator/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/heap-allocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/heap-allocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/heap-allocator/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/heap-allocator/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/heap-allocator/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/heap-allocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/heap-allocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heap_allocator">
+				<Option output="/tmp/heap-allocator/cmake-build-release/heap_allocator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/heap-allocator/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/heap-allocator/src/heap-allocator"/>
+					<Add directory="/tmp/heap-allocator/src/thread-cache"/>
+					<Add directory="/tmp/heap-allocator/src/central-cache"/>
+					<Add directory="/tmp/heap-allocator/src/page-cache"/>
+					<Add directory="/tmp/heap-allocator/src/util"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/heap-allocator/cmake-build-release/Makefile&quot;  VERBOSE=1 heap_allocator"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/heap-allocator/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/heap-allocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/heap-allocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heap_allocator/fast">
+				<Option output="/tmp/heap-allocator/cmake-build-release/heap_allocator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/heap-allocator/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/heap-allocator/src/heap-allocator"/>
+					<Add directory="/tmp/heap-allocator/src/thread-cache"/>
+					<Add directory="/tmp/heap-allocator/src/central-cache"/>
+					<Add directory="/tmp/heap-allocator/src/page-cache"/>
+					<Add directory="/tmp/heap-allocator/src/util"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/heap-allocator/cmake-build-release/Makefile&quot;  VERBOSE=1 heap_allocator/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/heap-allocator/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/heap-allocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/heap-allocator/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/heap-allocator/src/central-cache/central-cache.cpp">
+			<Option target="heap_allocator"/>
+		</Unit>
+		<Unit filename="/tmp/heap-allocator/src/central-cache/central-cache.h">
+			<Option target="heap_allocator"/>
+		</Unit>
+		<Unit filename="/tmp/heap-allocator/src/heap-allocator/heap-allocator.cpp">
+			<Option target="heap_allocator"/>
+		</Unit>
+		<Unit filename="/tmp/heap-allocator/src/heap-allocator/heap-allocator.h">
+			<Option target="heap_allocator"/>
+		</Unit>
+		<Unit filename="/tmp/heap-allocator/src/main.cpp">
+			<Option target="heap_allocator"/>
+		</Unit>
+		<Unit filename="/tmp/heap-allocator/src/page-cache/page-cache.cpp">
+			<Option target="heap_allocator"/>
+		</Unit>
+		<Unit filename="/tmp/heap-allocator/src/page-cache/page-cache.h">
+			<Option target="heap_allocator"/>
+		</Unit>
+		<Unit filename="/tmp/heap-allocator/src/thread-cache/thread-cache.cpp">
+			<Option target="heap_allocator"/>
+		</Unit>
+		<Unit filename="/tmp/heap-allocator/src/thread-cache/thread-cache.h">
+			<Option target="heap_allocator"/>
+		</Unit>
+		<Unit filename="/tmp/heap-allocator/src/util/util.cpp">
+			<Option target="heap_allocator"/>
+		</Unit>
+		<Unit filename="/tmp/heap-allocator/src/util/util.h">
+			<Option target="heap_allocator"/>
+		</Unit>
+		<Unit filename="/tmp/heap-allocator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

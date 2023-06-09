@@ -1,0 +1,4 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" -S /tmp/heap-allocator -B /tmp/heap-allocator/cmake-build-release
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/heap-allocator/cmake-build-release

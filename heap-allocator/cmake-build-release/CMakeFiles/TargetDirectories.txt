@@ -1,0 +1,3 @@
+/tmp/heap-allocator/cmake-build-release/CMakeFiles/rebuild_cache.dir
+/tmp/heap-allocator/cmake-build-release/CMakeFiles/edit_cache.dir
+/tmp/heap-allocator/cmake-build-release/CMakeFiles/heap_allocator.dir

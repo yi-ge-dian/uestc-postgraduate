@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/heap-allocator/heap-allocator.h
+
+/tmp/heap-allocator/src/main.cpp
+iostream
+-
+vector
+-
+pthread.h
+-
+heap-allocator.h
+/tmp/heap-allocator/src/heap-allocator.h
+
