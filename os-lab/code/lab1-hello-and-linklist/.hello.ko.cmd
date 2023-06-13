@@ -1,0 +1,1 @@
+cmd_/home/wenlongdong/桌面/os-lab/lab1-hello-and-linklist/hello.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/wenlongdong/桌面/os-lab/lab1-hello-and-linklist/hello.ko /home/wenlongdong/桌面/os-lab/lab1-hello-and-linklist/hello.o /home/wenlongdong/桌面/os-lab/lab1-hello-and-linklist/hello.mod.o ;  true

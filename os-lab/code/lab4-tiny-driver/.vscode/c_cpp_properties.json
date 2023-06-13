@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "driver",
+            "defines": [
+                "__GNUC__",
+                "__KERNEL__",
+                "MODULE"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-x64",
+            "includePath": [
+                "/usr/src/linux-headers-4.15.0-112/arch/x86/include",
+                "/usr/src/linux-headers-4.15.0-112-generic/include/",
+                "/usr/src/linux-headers-4.15.0-112/arch/arm/include",
+                "/usr/src/linux-headers-4.15.0-112/include",
+                "/usr/src/linux-headers-4.15.0-112/include/linux",
+                "/usr/src/linux-headers-4.15.0-112/arch/x86/include/uapi",
+                "/usr/src/linux-headers-4.15.0-112/include/uapi",
+                "/usr/src/linux-headers-4.15.0-112/ubuntu/include"
+            ]
+        }
+    ],
+    "version": 4
+}

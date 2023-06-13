@@ -1,0 +1,1 @@
+cmd_/home/wenlongdong/桌面/os-lab/lab4-tiny-driver/charMsgModule.o := ld -m elf_x86_64 -z max-page-size=0x200000   -r -o /home/wenlongdong/桌面/os-lab/lab4-tiny-driver/charMsgModule.o /home/wenlongdong/桌面/os-lab/lab4-tiny-driver/charDevDriver.o /home/wenlongdong/桌面/os-lab/lab4-tiny-driver/DriverFileOperation.o 

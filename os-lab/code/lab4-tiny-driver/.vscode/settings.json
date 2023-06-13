@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "kernel.h": "c",
+        "init.h": "c",
+        "slab.h": "c",
+        "cputime.h": "c",
+        "gfp.h": "c",
+        "errno.h": "c",
+        "driverfileoperation.h": "c",
+        "chardevdriver.h": "c",
+        "cdev.h": "c"
+    }
+}

@@ -1,0 +1,1 @@
+cmd_/home/wenlongdong/桌面/os-lab/lab4-tiny-driver/charMsgModule.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/wenlongdong/桌面/os-lab/lab4-tiny-driver/charMsgModule.ko /home/wenlongdong/桌面/os-lab/lab4-tiny-driver/charMsgModule.o /home/wenlongdong/桌面/os-lab/lab4-tiny-driver/charMsgModule.mod.o ;  true
