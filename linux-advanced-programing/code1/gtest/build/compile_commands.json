@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/dongwenlong/桌面/linux/code1/gtest/build",
+  "command": "/usr/bin/g++  -I/home/dongwenlong/桌面/linux/code1/gtest/include -I/home/dongwenlong/桌面/linux/code1/gtest/src  -std=c++17 -pthread -g -std=gnu++17 -o CMakeFiles/gtest.dir/src/main.cpp.o -c /home/dongwenlong/桌面/linux/code1/gtest/src/main.cpp",
+  "file": "/home/dongwenlong/桌面/linux/code1/gtest/src/main.cpp"
+},
+{
+  "directory": "/home/dongwenlong/桌面/linux/code1/gtest/build",
+  "command": "/usr/bin/g++  -I/home/dongwenlong/桌面/linux/code1/gtest/include -I/home/dongwenlong/桌面/linux/code1/gtest/src  -std=c++17 -pthread -g -std=gnu++17 -o CMakeFiles/gtest.dir/src/my_string.cpp.o -c /home/dongwenlong/桌面/linux/code1/gtest/src/my_string.cpp",
+  "file": "/home/dongwenlong/桌面/linux/code1/gtest/src/my_string.cpp"
+}
+]

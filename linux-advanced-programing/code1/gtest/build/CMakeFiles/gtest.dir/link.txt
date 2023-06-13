@@ -1,0 +1,1 @@
+/usr/bin/g++  -std=c++17 -pthread -g CMakeFiles/gtest.dir/src/main.cpp.o CMakeFiles/gtest.dir/src/my_string.cpp.o -o gtest   -L/home/dongwenlong/桌面/linux/code1/gtest/./lib  -Wl,-rpath,/home/dongwenlong/桌面/linux/code1/gtest/./lib -Wl,-Bstatic -lgtest -lgtest_main -Wl,-Bdynamic 

@@ -1,0 +1,3 @@
+/home/dongwenlong/桌面/linux/code1/gtest/build/CMakeFiles/gtest.dir
+/home/dongwenlong/桌面/linux/code1/gtest/build/CMakeFiles/edit_cache.dir
+/home/dongwenlong/桌面/linux/code1/gtest/build/CMakeFiles/rebuild_cache.dir

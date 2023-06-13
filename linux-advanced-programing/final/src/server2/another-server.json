@@ -1,0 +1,17 @@
+[
+    {
+       "name" : "\u5bab\u4fdd\u9e21\u4e01",
+       "price" : 12.0,
+       "stock" : 5
+    },
+    {
+       "name" : "\u9c7c\u9999\u8304\u5b50",
+       "price" : 10.0,
+       "stock" : 3
+    },
+    {
+       "name" : "\u9c7c\u9999\u8089\u4e1d",
+       "price" : 12.0,
+       "stock" : 3
+    }
+ ]
